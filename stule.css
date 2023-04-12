@@ -1,0 +1,164 @@
+body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		
+		.form-container {
+			background-color: #FFFFFF;
+			box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+			padding: 30px;
+			border-radius: 10px;
+			width: 400px;
+			margin: 20px;
+		}
+		
+		h1 {
+			font-size: 32px;
+			margin-bottom: 30px;
+			text-align: center;
+			color: #007bff;
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+			color: #555;
+		}
+		
+		input[type="text"], input[type="password"], input[type="email"] {
+			width: 100%;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			background-color: #f2f2f2;
+			color: #333;
+		}
+		
+		input[type="submit"] {
+			background-color: #007BFF;
+			color: #FFFFFF;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			width: 100%;
+			cursor: pointer;
+			margin-bottom: 20px;
+			font-size: 18px;
+			transition: all 0.3s ease-in-out;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #0062cc;
+		}
+		
+		.link {
+			display: block;
+			margin-top: 20px;
+			text-align: center;
+		}
+		
+		.link a {
+			color: #007BFF;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		
+		.link a:hover {
+			text-decoration: underline;
+		}
+		
+		.form-container-mechanic {
+			background-color: #FFFFFF;
+			box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+			padding: 30px;
+			border-radius: 10px;
+			width: 400px;
+			margin: 20px;
+		}
+		
+		.toggle-button {
+			display: block;
+			margin-top: 30px;
+			text-align: center;
+		}
+		
+		.toggle-button a {
+			color: #007BFF;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		
+		.toggle-button a:hover {
+			text-decoration: underline;
+		}
+		
+		.form-container-register {
+			display: none;
+			background-color: #FFFFFF;
+			box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+			padding: 30px;
+			border-radius: 10px;
+			width: 400px;
+			margin: 20px;
+		}
+		
+		.form-container-register h1 {
+	color: #007bff;
+	}
+	
+	.form-container-register input[type="submit"] {
+		background-color: #007BFF;
+		color: #FFFFFF;
+		padding: 10px;
+		border: none;
+		border-radius: 5px;
+		width: 100%;
+		cursor: pointer;
+		margin-bottom: 20px;
+		font-size: 18px;
+		transition: all 0.3s ease-in-out;
+	}
+	
+	.form-container-register input[type="submit"]:hover {
+		background-color: #0062cc;
+	}
+	
+	.form-container-register .link {
+		display: block;
+		margin-top: 20px;
+		text-align: center;
+	}
+	
+	.form-container-register .link a {
+		color: #007BFF;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	
+	.form-container-register .link a:hover {
+		text-decoration: underline;
+	}
+	
+	@media only screen and (max-width: 600px) {
+		.form-container {
+			width: 80%;
+		}
+		
+		.form-container-mechanic {
+			width: 80%;
+		}
+		
+		.form-container-register {
+			width: 80%;
+		}
+	}
